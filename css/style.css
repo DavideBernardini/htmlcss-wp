@@ -60,7 +60,11 @@ ul {
 li {
     display: inline-block;
     margin-right: 20px;
+}
+
+[href="#"] {
     color: gray;
+    text-decoration: none;
 }
 
 /* Main */
