@@ -80,28 +80,24 @@ li {
     font-size: 30px;
 }
 
-.lower-section {
-    height: 650px;
+.leadership {
     margin-top: 25px;
-    background-color: #008dff;
 }
 
-.top, .col-left, .col-center, .col-right {
-    background-color: #abcfe7;
-
+.leadership-header > .title {
+    font-size: 40px;
 }
 
-.lower-section > .top {
-    height: 100px;
+.leadership-header > .sub-title {
+    color: gray;
 }
 
-.lower-section > .columns {
-    margin: 20px 0;
+.leadership > .row {
+    padding: 20px 0;
 }
 
 .col-left, .col-center, .col-right {
     float: left;
-    height: 510px;
 }
 
 .col-left, .col-right {
@@ -111,6 +107,36 @@ li {
 .col-center {
     width: calc( 60% - 30px);
     margin: 0 15px;
+}
+
+.img-left, .img-center, .img-right {
+    height: 200px;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px;
+    overflow: hidden;
+
+} 
+
+.img-left {
+    background-image: url(../img/img-1.jpg);
+}
+
+.img-center {
+    background-image: url(../img/banner-2.jpg);
+}
+
+.img-right {
+    background-image: url(../img/img-3.jpg);
+}
+
+.row-title {
+    margin: 15px 0 10px 0;
+}
+
+.row-text {
+    color: gray;
 }
 
 footer {
