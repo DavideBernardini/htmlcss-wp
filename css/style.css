@@ -8,6 +8,10 @@
 
 /* Common */
 
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
 .container {
     width: 60%;
     margin: auto;
@@ -133,6 +137,7 @@ li {
 
 .row-title {
     margin: 15px 0 10px 0;
+    font-weight: lighter;
 }
 
 .row-text {
