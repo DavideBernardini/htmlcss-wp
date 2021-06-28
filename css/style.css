@@ -23,6 +23,12 @@ body {
     clear: both;
 }
 
+img:not(.logo-img) { 
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
 .overlay {
     position: absolute;
     background-color: rgba(0, 0, 0, 0.2);
@@ -61,9 +67,6 @@ li {
 
 .hero {
     height: 500px;
-    background-image: url(../img/banner.jpg);
-    background-size: cover;
-    background-position: center;
     border-radius: 15px;
     overflow: hidden;
     position: relative;
@@ -123,18 +126,6 @@ li {
 
 } 
 
-.img-left {
-    background-image: url(../img/img-1.jpg);
-}
-
-.img-center {
-    background-image: url(../img/banner-2.jpg);
-}
-
-.img-right {
-    background-image: url(../img/img-3.jpg);
-}
-
 .row-title {
     margin: 15px 0 10px 0;
     font-weight: lighter;
@@ -143,6 +134,8 @@ li {
 .row-text {
     color: gray;
 }
+
+/* Footer */
 
 footer {
     margin: 15px 0;
