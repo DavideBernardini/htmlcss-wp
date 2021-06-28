@@ -1,0 +1,75 @@
+/* Reset */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Common */
+
+.container {
+    width: 60%;
+    margin: auto;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Intestazione */
+
+header {
+    height: 150px;
+    background-color: #e579e6;
+    margin: 25px 0;
+}
+
+/* Main */
+
+.upper-section {
+    height: 500px;
+    background-color: #e1d67a;
+}
+
+.lower-section {
+    height: 650px;
+    margin-top: 25px;
+    background-color: #008dff;
+}
+
+.top, .col-left, .col-center, .col-right {
+    background-color: #abcfe7;
+
+}
+
+.lower-section > .top {
+    height: 100px;
+}
+
+.lower-section > .columns {
+    margin: 20px 0;
+}
+
+.col-left, .col-center, .col-right {
+    float: left;
+    height: 510px;
+}
+
+.col-left, .col-right {
+    width: 20%;
+}
+
+.col-center {
+    width: calc( 60% - 30px);
+    margin: 0 15px;
+}
+
+footer {
+    height: 80px;
+    margin: 15px 0;
+    background-color: #8801fe;
+}
+
