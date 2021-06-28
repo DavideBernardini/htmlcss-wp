@@ -81,7 +81,7 @@ li {
 }
 
 .leadership {
-    margin-top: 25px;
+    margin-top: 30px;
 }
 
 .leadership-header > .title {
@@ -93,7 +93,7 @@ li {
 }
 
 .leadership > .row {
-    padding: 20px 0;
+    padding: 30px 0;
 }
 
 .col-left, .col-center, .col-right {
@@ -140,8 +140,11 @@ li {
 }
 
 footer {
-    height: 80px;
     margin: 15px 0;
-    background-color: #8801fe;
+    text-align: center;
 }
 
+footer > span {
+    color: red;
+    font-size: 25px;
+}
