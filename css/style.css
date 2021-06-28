@@ -9,7 +9,7 @@
 /* Common */
 
 .container {
-    width: 80%;
+    width: 60%;
     margin: auto;
 }
 
@@ -17,6 +17,15 @@
     content: "";
     display: table;
     clear: both;
+}
+
+.overlay {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.2);
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
 }
 
 /* Intestazione */
@@ -46,9 +55,29 @@ li {
 
 /* Main */
 
-.upper-section {
+.hero {
     height: 500px;
-    background-color: #e1d67a;
+    background-image: url(../img/banner.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px;
+    overflow: hidden;
+    position: relative;
+}
+
+.hero-text {
+    width: 50%;
+    position: absolute;
+    left: 50px;
+    bottom: 70px;
+}
+
+.hero-text > div {
+    color: white;
+}
+
+.hero-text div:first-child {
+    font-size: 30px;
 }
 
 .lower-section {
